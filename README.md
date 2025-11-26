@@ -101,7 +101,7 @@ git clone https://github.com/Vatsan404/Skyshield.git
 cd Skyshield
 pip3 install -r requirements.txt
 
-## 🚀 **Usage**
+## 🚀 Usage
 ▶️ Start the Dashboard
 cd dashboard
 python3 app.py
@@ -111,12 +111,12 @@ Access in browser:
 
 http://<EC2_PUBLIC_IP>:8000
 
-## ▶️ **Run Attack Modules (CLI)**
+## ▶️ Run Attack Modules (CLI)
 Examples:
 
 python3 cbsdas.py cloudtrail_stop --trail project-trial
 
-## **📝 Final Notes**
+## 📝 Final Notes
 
 Skyshield is built to make cloud breach simulation and defense accessible to beginners and professionals.
 It demonstrates both attack paths (red teaming) and security detection (blue teaming).
