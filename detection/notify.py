@@ -2,7 +2,7 @@ import boto3
 
 sns = boto3.client("sns")
 
-TOPIC_ARN = "arn:aws:sns:eu-north-1:637423476013:project-alerts"
+TOPIC_ARN = "arn:aws:sns:eu-north-1:<ID>:project-alerts" #pass the ARN id in this place <ID>
 
 def send_alert(message):
     """
